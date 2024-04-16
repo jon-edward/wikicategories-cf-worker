@@ -1,3 +1,6 @@
 name = "wikicategories"
 main = "./src/index.ts"
 compatibility_date = "2024-04-16"
+
+[vars]
+ATLAS_APPID = "application-0-qgsja"
