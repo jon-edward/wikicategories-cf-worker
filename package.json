@@ -1,0 +1,25 @@
+{
+  "name": "wikicategories-cf-worker",
+  "version": "1.0.0",
+  "description": "This is the code for the wikicategories Cloudflare Worker.",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy src/index.ts",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-edward/wikicategories-cf-worker.git"
+  },
+  "author": "jon-edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jon-edward/wikicategories-cf-worker/issues"
+  },
+  "homepage": "https://github.com/jon-edward/wikicategories-cf-worker#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240405.0"
+  }
+}
