@@ -56,7 +56,7 @@ const worker: ExportedHandler<Env> = {
                 if (catId) {
                     // GET /api/todos?id=XXX
                     return toSuccess(
-                        await collection.findOne({ _id: catId })
+                        await collection.findOne({ _id: parseInt(catId) })
                     )
                 }
 
